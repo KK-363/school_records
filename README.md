@@ -1,7 +1,7 @@
 # school_records
 
 # This is a project designed to help homeschooling parents keep track of the hours that their children spend
-# doing defferent subjects and what events they may participate in.  
+# doing different subjects and what events they may participate in.  
 
 # Parents will be able to:
 # add a student, subject and event
