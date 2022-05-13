@@ -1,0 +1,5 @@
+app/students/migrations
+app/subjects/migrations
+app/records/migrations
+app/events/migrations
+venv

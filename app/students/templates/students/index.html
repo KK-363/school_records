@@ -1,0 +1,11 @@
+{% extends "students/base.html" %} {% load static %}{% block title %} Students
+{% endblock%} {% block content%}
+<div class="container">
+  <h1>Students</h1>
+  <ul>
+    {% for student in students %}
+    <li>{{ student.first_name}} {{ student.last_name}}</li>
+    {% endfor %}
+  </ul>
+</div>
+{% endblock %} {% block jsfiles %} {% endblock jsfiles %}

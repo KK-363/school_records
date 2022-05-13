@@ -1,0 +1,11 @@
+{% extends "events/base.html" %} {% load static %}{% block title %} Records
+{% endblock%} {% block content%}
+<div class="container">
+  <h1>Events</h1>
+  <ul>
+    {% for event in events %}
+    <li>{{ event.name}} {{event.start_time}} {{event.date}}</li>
+    {% endfor %}
+  </ul>
+</div>
+{% endblock %} {% block jsfiles %} {% endblock jsfiles %}

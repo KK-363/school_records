@@ -1,0 +1,11 @@
+{% extends "records/base.html" %} {% load static %}{% block title %} Records
+{% endblock%} {% block content%}
+<div class="container">
+  <h1>Records</h1>
+  <ul>
+    {% for record in records %}
+    <li>{{ record.time_spent}}</li>
+    {% endfor %}
+  </ul>
+</div>
+{% endblock %} {% block jsfiles %} {% endblock jsfiles %}
